@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="language" content="PT-BR">
+    <meta http-equiv="content-language" content="PT-BR">
+    <meta name="author" content="Igor Rafael">
+    <title>Wiki Minecraft - Comunidade</title>
+</head>
+<body>
+    <header>
+        <h1>Wiki Minecraft</h1>
+    </header>
+<nav>
+        <a href="inicio.html">Início</a>
+        <a href="mobs.html">Mobs</a>
+        <a href="biomas.html">Biomas</a>
+        <a href="minerios.html">Minérios</a>
+        <a href="ferramentas.html">Ferramentas</a>
+        <a href="crafting.html">Crafting</a>
+        <a href="encantamentos.html">Encantamentos</a>
+        <a href="dimensoes.html">Dimensões</a>
+        <a href="aldeias.html">Aldeias</a>
+        <a href="construcoes.html">Construções</a>
+        <a href="comunidade.html">Comunidade</a>
+    </nav>
+    <main>
+        <h2>Comunidade</h2>
+        <p>Use o formulário para registrar algumas informações sobre sua experiência no jogo.</p>
+        <form>
+            <fieldset><legend>Formulário</legend>
+                <label>Nome: <input type="text" required placeholder="Digite seu nome"></label><br><br>
+                <label>E-mail: <input type="email" required placeholder="Digite seu e-mail"></label><br><br>
+                <label>Quando começou a jogar: <input type="date"></label><br><br>
+                <label>Envie uma imagem: <input type="file"></label><br><br>
+                <label>Cor favorita: <input type="color"></label><br><br>
+                <label>Nota para o jogo: <input type="range" min="0" max="100"></label><br><br>
+                <label>Mob favorito: <input list="mobs"></label>
+                <datalist id="mobs"><option value="Creeper"><option value="Zumbi"><option value="Vaca"></datalist><br><br>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>Wiki Minecraft - 2026</p>
+    </footer>
+</body>
+</html>
